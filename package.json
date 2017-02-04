@@ -1,0 +1,24 @@
+{
+  "name": "download-json-webpack-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {
+    "get-json": "0.0.3"
+  },
+  "homepage": "https://github.com/mikeqcp/download-json-webpack-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikeqcp/download-json-webpack-plugin.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "scripts": {
+    "build": "babel src/index.js --presets es2015 --out-file lib/index.js"
+  },
+  "author": "mikeqcp",
+  "license": "MIT"
+}
